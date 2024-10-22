@@ -6,74 +6,67 @@
     align-items: center;
     justify-content: center;
     z-index: 50;
-  }
-  
-  .modal-background {
+}
+
+.modal-background {
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  .modal-content {
-    position: relative;
+}
+
+.modal-content {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 10;
     max-width: 400px;
     width: 100%;
     margin: 0 1rem;
-  }
-  
-  .modal-title {
+}
+
+.modal-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
     color: #333;
-  }
-  
-  .modal-description {
+}
+
+.modal-description {
     color: #555;
     margin-bottom: 1rem;
-  }
-  
-  .student-list {
+}
+
+.student-list {
     margin-bottom: 1rem;
     padding-left: 1.25rem;
     list-style-type: disc;
     color: #666;
-  }
-  
-  .close-button {
+}
+
+.close-button {
     background-color: #3b82f6;
     color: white;
-    font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     width: 100%;
     cursor: pointer;
-  }
-  
-  .close-button:hover {
+}
+
+.close-button:hover {
     background-color: #2563eb;
-  }
-  
-  /* JoinPage form styling */
-  .join-page {
+}
+
+/* JoinPage form styling */
+.join-page {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     min-height: 100vh;
-  }
-  
-  .form-container {
+}
+
+.form-container {
     position: relative;
-    top: 200px;
     width: 100%;
     max-width: 600px;
     padding: 2rem;
@@ -81,62 +74,52 @@
     backdrop-filter: blur(10px);
     border-radius: 0.5rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    transform: translateY(-20px);
-  }
-  
-  .form-container-blur {
-    opacity: 0.3;
-  }
-  
-  .form-title {
+}
+
+.form-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: center;
-    background: linear-gradient(to right, #fbbf24, #f59e0b, #f97316);
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  
-  .attendance-form {
+    color: black; /* Set color to black */
+}
+
+.attendance-form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
-  
-  .student-checkbox-group {
+}
+
+.student-checkbox-group {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-  }
-  
-  .student-checkbox {
+}
+
+.student-checkbox {
     display: flex;
     align-items: center;
     color: white;
-  }
-  
-  .student-checkbox input {
+}
+
+.student-checkbox input {
     margin-right: 0.5rem;
-  }
-  
-  .submit-button-container {
+}
+
+.submit-button-container {
     display: flex;
     justify-content: flex-end;
-  }
-  
-  .submit-button {
+}
+
+.submit-button {
     background: linear-gradient(to right, #fbbf24, #f59e0b, #f97316);
     color: white;
-    font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .submit-button:hover {
+}
+
+.submit-button:hover {
     background: linear-gradient(to right, #facc15, #fb923c, #f97316);
-  }
-  
+}
