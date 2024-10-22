@@ -56,7 +56,6 @@
     background-color: #2563eb;
 }
 
-/* JoinPage form styling */
 .join-page {
     display: flex;
     align-items: center;
@@ -80,7 +79,7 @@
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: center;
-    color: black; /* Set color to black */
+    color: black; 
 }
 
 .attendance-form {
