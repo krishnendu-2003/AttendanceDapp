@@ -4,7 +4,7 @@ import { ethers } from 'ethers';
 import { Web3Provider } from '@ethersproject/providers';
 
 import votingABI from '../abi/Attendance.json'; 
-import './JoinPage.css'; // Import the separate CSS file
+import './JoinPage.css'; 
 
 const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'; 
 
