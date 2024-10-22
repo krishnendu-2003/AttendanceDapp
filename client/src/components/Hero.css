@@ -1,0 +1,72 @@
+/* src/Hero.css */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem; /* adjust as per requirement */
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat, sans-serif';
+    color: #FFFFFF;
+    letter-spacing: 1px;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 4rem;
+    }
+  }
+  
+  .highlight-yellow {
+    color: #FBBF24;
+  }
+  
+  .highlight-orange {
+    color: #F59E0B;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .hero-button {
+    font-family: 'Roboto, sans-serif';
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-button.join-now {
+    background-color: #FBBF24;
+    color: white;
+  }
+  
+  .hero-button.join-now:hover {
+    background-color: #F59E0B;
+  }
+  
+  .hero-button.invest {
+    background-color: #3B82F6;
+    color: white;
+  }
+  
+  .hero-button.invest:hover {
+    background-color: #2563EB;
+  }
+  

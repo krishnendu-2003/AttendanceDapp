@@ -1,0 +1,80 @@
+/* Navbar container */
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar logo */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    margin-left: 1rem;
+    font-size: 1.875rem; /* 3xl */
+    font-weight: 800;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05rem;
+  }
+  
+  /* Navbar actions (buttons and account info) */
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .connected-account {
+    padding: 0.5rem 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #6B21A8; /* Purple */
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .connected-account:hover {
+    transform: scale(1.05);
+  }
+  
+  /* MetaMask connection button */
+  .connect-button {
+    padding: 0.75rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: white;
+    color: #7C3AED; /* Indigo */
+    border: 2px solid #7C3AED;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .connect-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Claim prize button */
+  .claim-button {
+    padding: 0.75rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #F59E0B; /* Yellow */
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .claim-button:hover {
+    transform: scale(1.05);
+  }
+  
